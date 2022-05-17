@@ -1,0 +1,30 @@
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+
+#myDIV {
+  width:160px;
+  background-color: grey;
+  text-align: center;
+  color: black;
+  margin-left:10px;
+  border-radius: 2px;
+  animation: mymove 5s infinite;
+  
+}
+
+@keyframes mymove {
+  0%{
+    opacity:0;
+  }
+  25%{
+    color:white;
+  }
+  50% {
+    width: 96%;
+  }
+}
